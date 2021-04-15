@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+	--primary-color: #f38181;
+	--secondary-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.container {
+	border: 1px solid var(--primary-color);
+}
+
+.controller {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--primary-color);
+	padding: 10px;
+}
+
+.option {
+	display: flex;
+	align-items: center;
+}
+
+.width::-webkit-inner-spin-button,
+.width::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.width {
+  -moz-appearance: textfield;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background-color: var(--secondary-color);
+	border: none;
+	font-size: 1rem;
+	color: var(--primary-color);
+}
+
+.btn {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border: none;
+	background-color: transparent;
+	border: 1px solid var(--secondary-color);
+	font-size: 1.5rem;
+	color: var(--secondary-color);
+	transition: all 200ms linear;
+}
+
+.minus {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.plus {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.eraser {
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	font-size: 1.7rem;
+}
+
+.color {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	padding: 0;
+	margin-left: 5px;
+}
