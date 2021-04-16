@@ -22,3 +22,15 @@
 - Challenge from Brad Traversy & Florin Pop on Udemy '50 Projects in 50 Days'
 
 #### Takeaways from the instructor
+
+1. HTML
+
+- no container
+- span instead of input:number
+
+2. CSS
+
+3. JavaScript
+
+- function for creatting circle and line shape first, and apply to mouse event
+- mousedown, mouseup, mousemove event listener
